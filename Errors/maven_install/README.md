@@ -18,3 +18,6 @@
         [ERROR] For more information about the errors and possible solutions, please read the following articles:
 
         [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+        
+        
+        ![1](./maven_install/1.png)

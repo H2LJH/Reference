@@ -20,4 +20,4 @@
         [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
         
         
-        ![1](./maven_install/1.png)
+![1](./maven_install/1.png)

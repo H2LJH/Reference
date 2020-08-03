@@ -36,3 +36,10 @@
                               Web -> CSS [UTF-8], HTML [UTF-8], JSP [UTF-8]
                               Web -> HTML Files -> Editor -> Templates
     * Maven -> User Settings : [ C:\XX\apache\apache-maven-3.6.3\conf [sttings.xml] ]
+    
+    
+# Maven ojdbc6 수동 로컬저장소에 설치
+    mvn install:install-file -Dfile=/oraclexe/app/oracle/product/11.2.0/server/jdbc/lib/ojdbc6.jar -Dpackaging=jar -DgeneratePom=true -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0
+
+* git bash 창에서 명령 실행할때
+  ./mvn install:install-file -Dfile=/c/oraclexe/app/oracle/product/11.2.0/server/jdbc/lib/ojdbc6.jar -Dpackaging=jar -DgeneratePom=true -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0

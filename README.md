@@ -20,10 +20,14 @@
      
 # Manual Maven
     1. https://maven.apache.org/download.cgi
+    
     2. apache-maven-3.6.3-bin.zip
+    
     3. C:\XX\apache\apache-maven-3.6.3\conf [sttings.xml]
+    
         <localRepository> 원하는 경로설정 </localRepository>
         </settings>
+        
     4. C:\Users\H2LJH\.m2파일 삭제
 
 # Eclipse Settings (로컬저장소 변경 Ojdbc 때문에)

@@ -6,7 +6,6 @@
 <configuration>
 	<typeAliases>
 		<typeAlias 
-			type="com.biz.order.model.OrderVO" 
-			alias="OrderVO"/>
+			type="com.biz.order.model.OrderVO" alias="OrderVO"/>
 	</typeAliases>
 </configuration>

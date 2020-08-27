@@ -1,0 +1,16 @@
+# Maven ojdbc6 수동 로컬저장소에 설치 & Dependency 추가
+    * mvn install:install-file -Dfile=/oraclexe/app/oracle/product/11.2.0/server/jdbc/lib/ojdbc6.jar -Dpackaging=jar -DgeneratePom=true -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0
+
+    * ./mvn install:install-file -Dfile=/c/oraclexe/app/oracle/product/11.2.0/server/jdbc/lib/ojdbc6.jar -Dpackaging=jar -DgeneratePom=true -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0
+
+
+    # Manual Maven
+    1. https://maven.apache.org/download.cgi
+    
+    2. apache-maven-3.6.3-bin.zip
+    
+    3. C:\XX\apache\apache-maven-3.6.3\conf [sttings.xml]
+        <localRepository> 원하는 경로설정 </localRepository>
+        </settings>
+    
+    4. C:\Users\H2LJH\.m2파일 삭제

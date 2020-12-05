@@ -1,5 +1,0 @@
-1. conn /as sysdba // sysdba 접속
-
-2. SELECT DBMS_XDB.GETHTTPPORT() FROM DUAL;  // 현재 포트 번호 확인
-
-3. EXEC DBMS_XDB.SETHTTPPORT(9090); // 9090 포트 번호로 변경명령어
